@@ -49,3 +49,14 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.vy-presentation {
+  text-align: center;
+
+  p {
+    text-align: justify;
+  }
+}
+</style>
+
