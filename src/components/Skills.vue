@@ -3,7 +3,7 @@
     class="resume-section p-3 p-lg-5 d-flex align-items-center vy-skills"
     id="skills"
   >
-    <div class="w-100">
+    <div class="w-100 align-self-center">
       <h2 class="mb-5">Skills</h2>
 
       <div class="subheading mb-3">Programming Languages &amp; Tools</div>

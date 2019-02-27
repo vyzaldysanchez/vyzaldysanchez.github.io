@@ -3,7 +3,7 @@
     class="resume-section p-3 p-lg-5 d-flex justify-content-center vy-resume"
     id="experience"
   >
-    <div class="w-100">
+    <div class="w-100 align-self-center">
       <h2 class="mb-5">Experience</h2>
 
       <template v-for="(experience, id) in experiences">

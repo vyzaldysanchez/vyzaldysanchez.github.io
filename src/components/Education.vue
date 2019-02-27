@@ -3,7 +3,7 @@
     class="resume-section p-3 p-lg-5 d-flex align-items-center vy-education"
     id="education"
   >
-    <div class="w-100">
+    <div class="w-100 align-self-center">
       <h2 class="mb-5">Education</h2>
 
       <template v-for="(institute, id) in institutes">

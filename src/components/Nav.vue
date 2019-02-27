@@ -56,7 +56,6 @@ export default {
         { link: '#experience', text: 'Experience' },
         { link: '#education', text: 'Education' },
         { link: '#skills', text: 'Skills' },
-        { link: '#interests', text: 'Interests' },
       ],
     };
   },

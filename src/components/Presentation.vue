@@ -3,7 +3,7 @@
     class="resume-section p-3 p-lg-5 d-flex align-items-center vy-presentation"
     id="about"
   >
-    <div class="w-100">
+    <div class="w-100 align-self-center">
       <h1 class="mb-0">Vyzaldy
         <span class="text-primary">Sanchez</span>
       </h1>
