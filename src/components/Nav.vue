@@ -10,9 +10,9 @@
       <span class="d-block d-lg-none">Clarence Taylor</span>
       <span class="d-none d-lg-block">
         <img
-          class="img-fluid img-profile rounded-circle mx-auto mb-2"
-          src="img/profile.jpg"
-          alt
+          class="img-fluid img-profile rounded-circle mx-auto mb-2 vy-profile-img"
+          alt="Vyzaldy Sanchez"
+          src="@/assets/images/profile.jpeg"
         />
       </span>
     </a>
