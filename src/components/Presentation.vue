@@ -8,7 +8,7 @@
         <span class="text-primary">Sanchez</span>
       </h1>
       <div class="subheading mb-5">Santo Domingo, Dominican Republic · (809) 858-7364 ·
-        <a href="vyzaldysanchez@gmail.com">vyzaldysanchez@gmail.com</a>
+        <a href="mailto:vyzaldysanchez@gmail.com">vyzaldysanchez@gmail.com</a>
       </div>
 
       <p class="lead mb-5">
@@ -22,17 +22,17 @@
       </p>
 
       <div class="social-icons">
-        <a href="#">
+        <a href="https://www.linkedin.com/in/vyzaldysanchez/">
           <i class="fab fa-linkedin-in"></i>
         </a>
-        <a href="#">
+        <a href="https://github.com/vyzaldysanchez">
           <i class="fab fa-github"></i>
         </a>
-        <a href="#">
+        <a href="https://twitter.com/Vyzaldy_andres">
           <i class="fab fa-twitter"></i>
         </a>
-        <a href="#">
-          <i class="fab fa-facebook-f"></i>
+        <a href="mailto:vyzaldysanchez@gmail.com">
+          <i class="fab fa fa-envelope"></i>
         </a>
       </div>
     </div>
