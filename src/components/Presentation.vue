@@ -17,7 +17,7 @@
         such as requirement specification, coding, deployment, delivery and so on.
       </p>
       <p class="lead mb-5">
-        I love challenges, and I really enjoy learning new things. Thanks to being a fast learner a and team-work enthusiastic, I'm able to adapt pretty well with teams.
+        I love challenges, and I really enjoy learning new things. Thanks to being a fast learner and enthusiast of teamwork, I'm able to adapt pretty well with teams.
       </p>
 
       <div class="social-icons">
