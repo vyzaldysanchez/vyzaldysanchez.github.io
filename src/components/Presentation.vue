@@ -12,7 +12,7 @@
       </div>
 
       <p class="lead mb-5">
-        Passionate soware engineer specialized in web development with 4+ years of experience. As a
+        Passionate software engineer specialized in web development with 4+ years of experience. As a
         developer I've been able to obtain knowledge at many areas regarding software development,
         such as requirement specification, coding, deployment, delivery and so on.
       </p>
