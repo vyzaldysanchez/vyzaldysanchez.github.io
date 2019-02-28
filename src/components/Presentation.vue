@@ -13,12 +13,11 @@
 
       <p class="lead mb-5">
         Passionate soware engineer specialized in web development with 4+ years of experience. As a
-        developer I've been able to obtain knowledge at many areas regarding soware development,
-        such as requirement specification, coding, deployment. delivery and so on.
+        developer I've been able to obtain knowledge at many areas regarding software development,
+        such as requirement specification, coding, deployment, delivery and so on.
       </p>
       <p class="lead mb-5">
-        I love challenges, and I really enjoy learning new things. I'm a fast learner a I enjoy team-work,
-        and thanks to that, I'm able to adapt pretty well with teams.
+        I love challenges, and I really enjoy learning new things. Thanks to being a fast learner a and team-work enthusiastic, I'm able to adapt pretty well with teams.
       </p>
 
       <div class="social-icons">
