@@ -82,7 +82,7 @@ export default {
           projects: [
             {
               name: 'OmniBazaar',
-              description: 'Built DHT connector to publish available products peer client. Developed features of the OmniBazaar marketplace.',
+              description: 'Builted DHT connector to publish available products peer client. Developed features of the OmniBazaar marketplace.',
               techs: ['JavaScript', 'NodeJS', 'React'],
               link: 'https://omnicoin.net/',
             }, {
