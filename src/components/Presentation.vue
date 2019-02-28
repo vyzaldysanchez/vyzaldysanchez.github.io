@@ -31,6 +31,9 @@
         <a href="https://twitter.com/Vyzaldy_andres">
           <i class="fab fa-twitter"></i>
         </a>
+        <a href="https://dev.to/vyzaldysanchez">
+          <i class="fab fa-dev"></i>
+        </a>
         <a href="mailto:vyzaldysanchez@gmail.com">
           <i class="fab fa fa-envelope"></i>
         </a>
