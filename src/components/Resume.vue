@@ -97,7 +97,7 @@ export default {
         {
           jobTitle: 'Senior Web App. Developer',
           company: 'ATL Software',
-          description: 'Lead developer building educational front platform. Developer building educational operations system.',
+          description: 'Lead developer building educational front platform. Helped to build educational operations system.',
           link: 'https://atl-software.net/en/',
           projects: [
             {

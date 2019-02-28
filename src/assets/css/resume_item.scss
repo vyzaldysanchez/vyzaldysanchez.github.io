@@ -15,9 +15,13 @@ section.resume-section {
   }
 
   .resume-item {
+    position: relative;
+
     .resume-content {}
 
     .resume-date {
+      position: absolute;
+      right: 0;
       min-width: none;
     }
   }
