@@ -7,7 +7,8 @@
       <h1 class="mb-0">Vyzaldy
         <span class="text-primary">Sanchez</span>
       </h1>
-      <div class="subheading mb-5">Santo Domingo, Dominican Republic · (809) 858-7364 ·
+      <div class="subheading mb-5">Santo Domingo, Dominican Republic ·
+        <a href="tel:809-858-7364">(809) 858-7364</a> ·
         <a href="mailto:vyzaldysanchez@gmail.com">vyzaldysanchez@gmail.com</a>
       </div>
 
