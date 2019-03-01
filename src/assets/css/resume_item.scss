@@ -23,6 +23,10 @@ section.resume-section {
       position: absolute;
       right: 0;
       min-width: none;
+
+      @media (max-width: 550px) {
+        position: relative;
+      }
     }
   }
 }
