@@ -6,7 +6,7 @@ set -e
 # build
 npm run build
 
-git add ./dist/**
+git add -f ./dist/**
 
 git commit -m 'Auto deploys site'
 
