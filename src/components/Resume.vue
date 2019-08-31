@@ -1,58 +1,24 @@
 <template>
-  <section
-    class="resume-section p-3 p-lg-5 d-flex justify-content-center vy-resume"
-    id="experience"
-  >
-    <div class="w-100 align-self-center">
-      <h2 class="mb-5">Experience</h2>
+  <section class="work-section py-3">
+    <h3 class="text-uppercase resume-section-heading mb-4">Work Experiences</h3>
 
-      <template v-for="(experience, id) in experiences">
-        <div v-bind:key="`vy-experience-item-parent-${id}`">
-          <div
-            class="resume-item d-flex flex-column flex-md-row justify-content-between"
-            v-bind:key="`vy-experience-item-${id}`"
-          >
-            <div class="resume-content">
-              <h3 class="mb-0">{{ experience.jobTitle }}</h3>
-              <div class="subheading mb-3">{{ experience.company }}</div>
-              <p>
-                {{ experience.description }}
-              </p>
-              Website: <a :href="experience.link">{{ experience.company }}</a>
-            </div>
-
-            <div class="resume-date text-md-right">
-              <span class="text-primary">{{ experience.duration }}</span>
-            </div>
-
-          </div>
-
-          <div
-            class="subheading mt-3 mb-3"
-            v-if="experience.projects.length"
-          >Projects</div>
-
-          <div
-            class="resume-project"
-            v-for="(project, id) in experience.projects"
-            v-bind:key="`vy-experience-item-project-${id}`"
-          >
-            <div class="text-primary mb-2">{{ project.name }}</div>
-
-            <div class="ml-3 mb-3">
-              <span>{{ project.description }}</span><br />
-              <div class="mt-1 mb-2">
-                <span class="text-dark">Technologies:</span> <span>{{ project.techs.join(', ') }}.</span><br />
-              </div>
-              <span class="text-dark">Website:</span> <a :href="project.link">{{ project.link }}</a>
-            </div>
-          </div>
-
-          <hr class="mb-3" />
+    <div class="item mb-3" v-for="(experience, id) in experiences" v-bind:key="`vy-experience-item-parent-${id}`">
+      <div class="item-heading row align-items-center mb-2">
+        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">{{ experience.jobTitle }}</h4>
+        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-justify text-md-right">
+          <a :href="experience.link" target="_blank">{{ experience.company }}</a> | {{ experience.duration }}
         </div>
-      </template>
-    </div>
+      </div>
+      <div class="item-content">
+        <p>{{ experience.description }}</p>
 
+        <ul class="resume-list">
+          <li v-for="(responsability, id) in experience.responsabilities" v-bind:key="`vy-experience-item-project-${id}`">
+            {{ responsability }}
+          </li>
+        </ul>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -62,64 +28,83 @@ export default {
     return {
       experiences: [
         {
-          jobTitle: 'Software Engineer',
+          jobTitle: 'Full Stack Developer',
+          company: 'Soshace',
+          description: 'Full Stack Developer responsible of delivering high quality products by using multiple technologies.',
+          link: 'https://soshace.com',
+          responsabilities: [
+            'Take architectural decisions to impact product performance and cost.',
+            'Implement responsive UI/UX mock-ups based on specifications.',
+            'Integrate several Social Network APIs for real-time consumption.',
+            'Maintain and improve progressively current products.',
+            'Interate payment solutions and 3rd party modules.',
+            'Maintain and improve cloud functions with Firebase.',
+          ],
+          duration: 'May 2019 – Present',
+          techs: ['JavaScript', 'Node.js', 'TypeScript', 'Angular', 'Firebase'],
+        },
+        {
+          jobTitle: 'Senior Software Engineer',
           company: 'GBH Solutions',
-          description: 'Collaborate with the team to produce software artifacts and maintain existing products.',
+          description: 'Senior Software Engineer responsible of supporting Team Leads, producing software artifacs following high quality standards.',
           link: 'https://gbh.com.do/en/',
-          projects: [{
-            name: 'Hello Alfred',
-            description: 'Build new features and maintain the current functionality of the bundle of apps that conforms Hello Alfred.',
-            techs: ['JavaScript', 'NodeJS', 'TypeScript', 'React', 'Elixir', 'MongoDB', 'PostgreSQL', 'Docker', 'Heroku'],
-            link: 'https://www.helloalfred.com/',
-          }],
-          duration: 'November 2017 – Present',
+          responsabilities: [
+            'Implement Front-end solutions for multiple applications.',
+            'Produce and maintain tested and scalable REST APIs arcording to specifications, usable for both mobile and web solutions.',
+            'Implement UI solutions for mobile applications, using React Native.',
+            'Maintaine legacy Elixir/Phoenix API Gateway and Dashboard.',
+            'Integrate several 3rd party services, such as Zendesk.',
+            'Produce Zendesk Chat web library using React.',
+          ],
+          duration: 'November 2017 – August 2019',
+          techs: ['JavaScript', 'Node.js', 'TypeScript', 'React', 'React Native', 'Elixir', 'MongoDB', 'PostgreSQL', 'Docker', 'Heroku', 'GCP', 'CircleCI'],
         },
         {
           jobTitle: 'Software Developer',
           company: 'Scopic Software',
           description: 'Develop and maintain solutions for multiple clients around the globe.',
           link: 'https://scopicsoftware.com/',
-          projects: [
-            {
-              name: 'OmniBazaar',
-              description: 'Builted DHT connector to publish available products peer client. Developed features of the OmniBazaar marketplace.',
-              techs: ['JavaScript', 'NodeJS', 'React'],
-              link: 'https://omnicoin.net/',
-            }, {
-              name: 'GrumbleAlert',
-              description: 'Develop and maintain scrapping platform.',
-              techs: ['JavaScript', 'NodeJS', 'PHP', 'VueJS', 'Laravel', 'MongoDB', 'PostgreSQL'],
-              link: 'http://grumblebot.com/',
-            },
+          responsabilities: [
+            'Build DHT connector to publish available products for a peer-to-peer crypto based marketplace.',
+            'Maintain and improve Electron crypto based marketplace.',
+            'Lead technical development cicle for a scrapping platform.',
+            'Produce architectural designs and solutions.',
+            'Migrate database from MySQL from PostgreSQL.',
           ],
-          duration: 'April 2018 – Present',
+          duration: 'April 2018 – March 2019',
+          techs: ['JavaScript', 'Node.js', 'PHP', 'VueJS', 'React', 'Laravel', 'MongoDB', 'PostgreSQL'],
         },
         {
           jobTitle: 'Senior Web App. Developer',
           company: 'ATL Software',
-          description: 'Lead developer building educational front platform. Helped to build educational operations system.',
+          description: 'Lead developer building educational student focused platform.',
           link: 'https://atl-software.net/en/',
-          projects: [
-            {
-              name: 'Kioske',
-              description: 'Migrated apps from KnockoutJS to Angular. Migrated core front platform backend from CakepPHP to the 2.x stable version in that moment.',
-              techs: ['JavaScript', 'NodeJS', 'KnockoutJS', 'Angular', 'PHP', 'CakePHP', 'Wordpress', 'Gulp', 'MySQL'],
-              link: 'https://afatlanta.extranet-aec.com/',
-            }, {
-              name: 'Arc-en-ciel',
-              description: 'Developed and maintained educational operations system.',
-              techs: ['Apache Flex', 'PHP', 'CakePHP', 'MySQL'],
-            },
+          responsabilities: [
+            'Help building educational internal operations system.',
+            'Integrate payment gateways',
+            'Produce and maintain REST APIs.',
+            'Upgrade legacy CakePHP 1.x project.',
+            'Produce and maintain KnockoutJS web-applications.',
+            'Implement Angular by building a web-applications loader for both KnockoutJS and Angular applications.',
+            'Maintain MutationObserver implementation to load web-applications on websites, based on DOM specifications.',
+            'Implement token based authorization for web-applications per client.',
+            'Manage version control systems workflows and applications deployment.',
+            'Enhance the development workflow to achieve greater results',
+            'Give internal conferences about new technologies and tecniques.',
           ],
           duration: 'January 2016 – November 2017',
+          techs: ['JavaScript', 'Node.js', 'TypeScript', 'KnockoutJS', 'Angular', 'PHP', 'CakePHP', 'Wordpress', 'Gulp', 'MySQL', 'Apache Flex', 'TeamCity'],
         },
         {
           jobTitle: 'Web Developer',
-          company: 'Archivo General de la Nación',
+          company: 'AGN',
           link: 'http://agn.gob.do/',
-          description: 'Developed features and maintained existent functionality in order to automate daily processes.',
-          projects: [],
+          description: 'Web Developer responsible of implement and maintain existent functionality in order to automate daily processes.',
+          responsabilities: [
+            'Automate manual processes creating web based solutions.',
+          ],
           duration: 'February 2015 – December 2015',
+          techs: ['JavaScript', 'jQuery', 'PHP', 'CodeIgniter', 'CI Bonfire'],
         },
       ],
     };

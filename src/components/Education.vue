@@ -1,28 +1,14 @@
 <template>
-  <section
-    class="resume-section p-3 p-lg-5 d-flex align-items-center vy-education"
-    id="education"
-  >
-    <div class="w-100 align-self-center">
-      <h2 class="mb-5">Education</h2>
-
-      <template v-for="(institute, id) in institutes">
-        <div
-          class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-          v-bind:key="`vy-education-item-${id}`"
-        >
-          <div class="resume-content">
-            <h3 class="mb-0">{{ institute.name }}</h3>
-            <div class="subheading mb-3">{{ institute.degree }}</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">{{ institute.duration }}</span>
-          </div>
-        </div>
-      </template>
-    </div>
+  <section class="education-section py-3">
+    <h3 class="text-uppercase resume-section-heading mb-4">Education</h3>
+    <ul class="list-unstyled resume-education-list">
+      <li class="mb-3" v-for="(institute, id) in institutes" v-bind:key="`vy-education-item-${id}`">
+        <div class="resume-degree font-weight-bold">{{ institute.degree }}</div>
+        <div class="resume-degree-org text-muted">{{ institute.name }}</div>
+        <div class="resume-degree-time text-muted">{{ institute.duration }}</div>
+      </li>
+    </ul>
   </section>
-
 </template>
 
 <script>
@@ -33,7 +19,7 @@ export default {
         {
           name: 'UNAPEC',
           duration: '2016 – Present',
-          degree: ' Bachelor\'s degree, Computer Soware Engineering',
+          degree: 'Bachelor\'s degree, Computer Soware Engineering',
         },
         {
           name: 'Las Americas Institute of Technology, ITLA',

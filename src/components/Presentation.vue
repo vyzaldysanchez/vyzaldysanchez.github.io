@@ -1,65 +1,29 @@
 <template>
-  <section
-    class="resume-section p-3 p-lg-5 d-flex align-items-center vy-presentation"
-    id="about"
-  >
-    <div class="w-100 align-self-center">
-      <h1 class="mb-0">Vyzaldy
-        <span class="text-primary">Sanchez</span>
-      </h1>
-      <div class="subheading mb-5">Santo Domingo, Dominican Republic ·
-        <a href="tel:809-858-7364">(809) 858-7364</a> ·
-        <a href="mailto:vyzaldysanchez@gmail.com">vyzaldysanchez@gmail.com</a>
+  <div class="resume-header">
+    <div class="row align-items-center">
+      <div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
+        <h2 class="resume-name mb-0 text-uppercase">Vyzaldy Sanchez</h2>
+        <div class="resume-tagline mb-3 mb-md-0">Software Engineer</div>
       </div>
-
-      <p class="lead mb-5">
-        Passionate software engineer specialized in web development with 4+ years of experience. As a
-        developer I've been able to obtain knowledge at many areas regarding software development,
-        such as requirement specification, coding, deployment, delivery and so on.
-      </p>
-      <p class="lead mb-5">
-        I love challenges, and I really enjoy learning new things. Thanks to being a fast learner and enthusiast of teamwork, I'm able to adapt pretty well with teams.
-      </p>
-
-      <div class="social-icons">
-        <a href="https://www.linkedin.com/in/vyzaldysanchez/">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a href="https://github.com/vyzaldysanchez">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="https://twitter.com/Vyzaldy_andres">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="https://dev.to/vyzaldysanchez">
-          <i class="fab fa-dev"></i>
-        </a>
-        <a href="mailto:vyzaldysanchez@gmail.com">
-          <i class="fab fa fa-envelope"></i>
-        </a>
+      <!--//resume-title-->
+      <div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
+        <ul class="list-unstyled mb-0">
+          <li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg mr-2"></i><a class="resume-link" href="mailto:vyzaldysanchez@gmail.com">vyzaldysanchez@gmail.com</a></li>
+          <li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg mr-2"></i>SANTO DOMINGO, DOMINICAN REPUBLIC</li>
+        </ul>
       </div>
+      <!--//resume-contact-->
     </div>
-  </section>
+    <!--//row-->
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Presentation',
+
   data () {
-    return {
-      msg: 'Welcome to Your Vue.js App',
-    };
+    return {};
   },
 };
 </script>
-
-<style lang="scss" scoped>
-.vy-presentation {
-  text-align: center;
-
-  p {
-    text-align: justify;
-  }
-}
-</style>
-

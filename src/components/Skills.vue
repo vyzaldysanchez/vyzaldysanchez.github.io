@@ -1,72 +1,38 @@
 <template>
-  <section
-    class="resume-section p-3 p-lg-5 d-flex align-items-center vy-skills"
-    id="skills"
-  >
-    <div class="w-100 align-self-center">
-      <h2 class="mb-5">Skills</h2>
-
-      <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-      <ul class="list-inline dev-icons">
-        <li class="list-inline-item">
-          <i class="fab fa-html5"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-css3-alt"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-js-square"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-vuejs"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-react"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-angular"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-node-js"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-sass"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-less"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-wordpress"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-gulp"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-grunt"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-npm"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-php"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-laravel"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-git-square"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-github"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa fa-database"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-phoenix-framework"></i>
-        </li>
+  <section class="skills-section py-3">
+    <h3 class="text-uppercase resume-section-heading mb-4">Skills</h3>
+    <div class="item">
+      <h4 class="item-title">Technical</h4>
+      <ul class="list-unstyled resume-skills-list">
+        <li class="mb-2">HTML/CSS/SCSS</li>
+        <li class="mb-2">JavaScript</li>
+        <li class="mb-2">TypeScript</li>
+        <li class="mb-2">React/Vue/Angular</li>
+        <li class="mb-2">Node.js</li>
+        <li class="mb-2">PHP</li>
+        <li class="mb-2">Laravel/CakePHP</li>
+        <li class="mb-2">Elixir/Phoenix</li>
+        <li class="mb-2">PostgreSQL/MySQL/MongoDB</li>
+        <li class="mb-2">Firebase</li>
+        <li class="mb-2">Heroku</li>
+        <li class="mb-2">Docker</li>
+        <li class="mb-2">Functional Programming</li>
+        <li class="mb-2">Software Architecture</li>
+        <li class="mb-2">Object-Oriented Design</li>
+        <li class="mb-2">Design and implement database structures</li>
       </ul>
     </div>
+    <!--//item-->
+    <div class="item">
+      <h4 class="item-title">Professional</h4>
+      <ul class="list-unstyled resume-skills-list">
+        <li class="mb-2">Effective communication</li>
+        <li class="mb-2">Team player</li>
+        <li class="mb-2">Strong problem solver</li>
+        <li class="mb-2">Good time management</li>
+      </ul>
+    </div>
+    <!--//item-->
   </section>
 </template>
 
