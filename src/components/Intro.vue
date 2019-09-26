@@ -1,7 +1,7 @@
 <template>
   <div class="resume-intro py-3">
     <div class="media flex-column flex-md-row align-items-center">
-      <img class="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" alt="Vyzaldy Sanchez" src="@/assets/images/profile.jpeg" />
+      <img class="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" alt="Vyzaldy Sanchez" src="@/assets/images/profile.jpg" />
       <div class="media-body text-justify">
         <p class="mb-0">
           Passionate software engineer specialized in web development with 4+ years of experience. I focus myself on Full-Stack Web Development using JavaScript.
